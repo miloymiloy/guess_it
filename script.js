@@ -183,6 +183,7 @@ $(document).ready(function() {
         }
         else if(lives == 0){
             $('#no-livesModal').modal('toggle')
+            $('.no-lives-word').text(guessWordstring)
         }
 
     })

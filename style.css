@@ -6,6 +6,9 @@
     background-size: cover;
     background-position: bottom;
 }
+.intro-wrapper{
+    height: 100vh;
+}
 .container-wrapper{
     height: 100%;
 }

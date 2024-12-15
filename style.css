@@ -1,0 +1,66 @@
+.container-fluid{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/assets/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.container-wrapper{
+    height: 100%;
+}
+.logo-box{
+    text-decoration: none;
+    color: inherit;
+}
+.logo-wrapper{
+    height: fit-content;
+}
+
+.intro-msg{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #000;
+}
+.menu-wrapper,.game-wrapper{
+    height: 90vh;
+}
+.guess-input{
+    width: fit-content;
+    max-width: 80px;
+    height: 100px;
+    font-size: 3rem;
+    padding: 0;
+    text-align: center;
+    margin-left: .2rem;
+}
+.fa-heart{
+    color: red;
+    margin-left: .1rem;
+}
+.back-toMenu-btn{
+    cursor: pointer;
+    width: fit-content;
+    
+}
+.back-toMenu-btn:hover{
+    color: black;
+}
+.word-clue{
+    font-size: .8rem;
+}
+.spinner-border{
+    width: 5rem !important;
+    height: 5rem !important;
+}
+.img-next-wrapper{
+    width: 100;
+}
+.img-next-wrapper img{
+    max-width: 100%;
+}
+.next-btn{
+    width: 100%;
+}
+footer p{
+    font-size: .8rem;
+}
